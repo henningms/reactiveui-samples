@@ -20,15 +20,7 @@ namespace TestReactiveTableViewSource.Cells
 	        set { _viewModel = this.RaiseAndSetIfChanged(ref _viewModel, value); }
 	    }
 
-	    public TestPrototypeCell (IntPtr handle) : base (handle)
-	    {
-            //this.WhenAny(vm => vm.ViewModel, vm => vm.Value != null).Subscribe(b =>
-            //{
-            //    TitleTextLabel.Text = ViewModel.Title;
-            //});
-
-	        //
-	    }
+        public TestPrototypeCell(IntPtr handle) : base(handle) { }
 
 	    public override void AwakeFromNib()
 	    {
