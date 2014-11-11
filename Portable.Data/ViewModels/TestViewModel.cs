@@ -7,11 +7,18 @@ namespace Portable.Data.ViewModels
     public class TestViewModel : ReactiveObject
     {
         private ReactiveList<TestModel> _listOfTestModels;
+        private string _title;
 
         public ReactiveList<TestModel> ListOfTestModels
         {
             get { return _listOfTestModels; }
             set { _listOfTestModels = this.RaiseAndSetIfChanged(ref _listOfTestModels, value); }
+        }
+
+        public string Title
+        {
+            get { return _title; }
+            set { _title = this.RaiseAndSetIfChanged(ref _title, value); }
         }
 
         public void InitializeRandomData()
