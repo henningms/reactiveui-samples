@@ -4,4 +4,4 @@ This project is a simple Xamarin.iOS app that utilizes the `ReactiveTableViewSou
 
 We are using simple data-binding in our `ReactiveTableViewCell`-cells for updating UI components when the underlying model is set or changed.
 
-Always remember IViewFor<TViewModel> interface
+** Remember to implement the IViewFor<TViewModel> interface**
