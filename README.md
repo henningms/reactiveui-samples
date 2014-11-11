@@ -24,7 +24,7 @@ Each project is prefixed with platform or project type so it is easier to naviga
 
 This is the D.R.Y section where we put documentation that we find ourselves repeating in projects' README files.
 
-### IViewFor<TViewModel>
+###  `IViewFor<TViewModel>`
 
 This interface you will be using a lot. In case your IDE does not have actions for auto-implementing it here's a sample.
 
