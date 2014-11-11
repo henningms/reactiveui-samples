@@ -12,6 +12,14 @@ Each project is prefixed with platform or project type so it is easier to naviga
 | Android | Android.TestDataBindings |
 | WinPhone | WinPhone.TestDataBindings |
 
+# How do I?
+
+|   | Project(s) |
+|---|---------|
+| Learn basic data-binding | iOS.TestDataBindings |
+| Data-bind lists | iOS.TestReactiveTableViewSource |
+
+
 # D.R.Y
 
 This is the D.R.Y section where we put documentation that we find ourselves repeating in projects' README files.
