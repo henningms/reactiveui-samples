@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.TestReactiveTableViewSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.Data", "Portable.Data\Portable.Data.csproj", "{FCADBF0C-282C-455F-9903-107A1600B1B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.TestDataBindings", "TestDataBindings\iOS.TestDataBindings.csproj", "{DFADB8B6-5E41-40F3-89D7-D84295ED0334}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.TestDataBindings", "iOS.TestDataBindings\iOS.TestDataBindings.csproj", "{DFADB8B6-5E41-40F3-89D7-D84295ED0334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
