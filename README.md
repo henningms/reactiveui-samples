@@ -40,3 +40,33 @@ class Something : ViewFor<TestModel>
 	    }
 }
 ```
+
+# Troubleshooting
+
+### Crazy Mono.Debugging exception
+
+Gotten any of these?
+
+![alt text](http://www.henning.ms/wp-content/uploads/2014/11/weird-mono-exception-01.png "Weird Mono Exception 01")
+
+or
+
+![alt text](http://www.henning.ms/wp-content/uploads/2014/11/weird-mono-exception-02.png "Weird Mono Exception 02")
+
+If you have then be careful to check that you are referencing or setting the property on the view you are binding to:
+
+**Causes exception**
+```c#
+
+//ChangeTitleTextField.Text isn't set
+this.Bind(ViewModel, vm => vm.Title, view => view.ChangeTitleTextField.Text);
+```
+
+**All good**
+```c#
+
+ChangeTitleTextField.Text = "";
+this.Bind(ViewModel, vm => vm.Title, view => view.ChangeTitleTextField.Text);
+```
+
+This is particularly for TextFields. There are no problems initiating a binding to e.g labels.
